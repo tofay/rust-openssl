@@ -186,11 +186,11 @@ and try building this crate again.
         msg.push_str(
             "
 It looks like you're compiling for MSVC but we couldn't detect an OpenSSL
-installation. If there isn't one installed then you can try the rust-openssl
-README for more information about how to download precompiled binaries of
+installation. If there isn't one installed then you can try the OpenSSL
+wiki for more information about how to download precompiled binaries of
 OpenSSL:
 
-https://github.com/sfackler/rust-openssl#windows
+https://wiki.openssl.org/index.php/Binaries
 
 ",
         );
